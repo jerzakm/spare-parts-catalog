@@ -11,7 +11,9 @@
 </script>
 
 <div class="flex flex-column items-center justify-between">
-  <h1 class="flex-1">Katalog części foteli</h1>
+  <a href="/by-products" class="flex-1" use:link>
+    <h1 class="">Katalog części foteli</h1>
+  </a>
   <nav class="flex-1 flex flex-column items-end justify-end">
     <a
       href="/by-products"
