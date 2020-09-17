@@ -12,7 +12,7 @@
   const routes = {
     '/by-products': ByProduct,
     '/by-parts': ByPart,
-    '/part-table': PartTable,
+    '/parts-table': PartTable,
   }
 
   onMount(() => {

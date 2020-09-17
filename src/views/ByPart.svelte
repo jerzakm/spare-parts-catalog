@@ -9,7 +9,6 @@
 
     if (p) {
       for (const part of p) {
-        console.log(part)
         if (partsList[`${part.type}`]) {
           partsList[`${part.type}`].push(part)
         } else {
@@ -26,10 +25,11 @@
     {#each Object.keys(partsList) as group}
       <div>
         <h2 class="mt-2 mb-6 mr-8">{group}</h2>
-        {#each partsList[`${group}`] as part}
-          <parts class="flex">
-            <div class="bg-white">
-              <Card.Card>
+        <parts class="flex flex-row">
+          {#each partsList[`${group}`] as part}
+            <div class="bg-white mr-3">
+              <Card.Card
+                classes={'rounded inline-flex flex-col overflow-hidden duration-200 ease-in h-full'}>
                 <div slot="title">
                   <Card.Title title={part.name} subheader={part.symbol} />
                 </div>
@@ -63,8 +63,8 @@
                 </div>
               </Card.Card>
             </div>
-          </parts>
-        {/each}
+          {/each}
+        </parts>
       </div>
     {/each}
   </div>
