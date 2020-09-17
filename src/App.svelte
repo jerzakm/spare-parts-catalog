@@ -16,7 +16,7 @@
   }
 
   onMount(() => {
-    push('/by-products')
+    // push('/by-products')
   })
 </script>
 

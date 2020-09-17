@@ -19,7 +19,7 @@
     colCount = 1
     if (p) {
       for (const part of p) {
-        parts.push(part.symbol)
+        parts.push(part)
         console.log(part)
         if (partsList[`${part.type}`]) {
           partsList[`${part.type}`].push(part)
@@ -32,32 +32,59 @@
     Object.keys(partsList)
   })
 
-  const grid = ['', ...parts]
+  function partBelongs(part, product) {
+    // console.log(part, product)
+    let fits = false
 
-  for (const product of products) {
-    grid.push(product.name)
-    for (const part of parts) {
-      console.log(part)
-      grid.push('x')
+    for (const fit of part.fits) {
+      if (fit == product.name) {
+        fits = true
+        break
+      }
+      for (const variant of product.variants) {
+        if (fit == variant.symbol) {
+          fits = true
+          break
+        }
+      }
     }
+
+    return fits
   }
 </script>
 
-<h4 class="mb-8">
-  Tutaj będzie tabela z częściami jak mamy w excelu. Dodatkowo można będzie
-  podejrzeć zdjęcia i stany magazynowe części. Poważnie wezmę się za to po
-  akceptacji projektu.
-</h4>
-
 {#if partsList && products.length > 1}
-  <partstable
-    class="grid gap-1"
-    style={`grid-template-columns: repeat(${parts.length + 1}, minmax(0, 3rem));`}>
-    {#each grid as cell, cellCount}
-      <h4
-        class={`bg-porange-200 ${cellCount < parts.length + 1 ? 'transform rotate-90 mb-32' : ''}`}>
-        {cell}
-      </h4>
-    {/each}
-  </partstable>
+  <div class="parts-table-container">
+    <table class="parts-table">
+      <thead class="parts-table-head bg-porange-100">
+        <tr>
+          <th class="z-10 bg-porange-100" />
+          {#each parts as part}
+            <th class="w-10 py-20 bg-porange-100 z-10 parts-table-grid-border">
+              <div
+                class="parts-table-header-symbol flex pb-4 whitespace-no-wrap
+                  items-center flex-col">
+                <span>{part.name}</span>
+                <!-- <span class="text-xs text-gray-800">{part.symbol}</span> -->
+              </div>
+            </th>
+          {/each}
+        </tr>
+      </thead>
+      <tbody>
+        {#each products as product}
+          <tr>
+            <th class="bg-porange-100 z-10 parts-table-grid-border">
+              {product.name}
+            </th>
+            {#each parts as part}
+              <th class="parts-table-grid-border">
+                {#if partBelongs(part, product)}x{/if}
+              </th>
+            {/each}
+          </tr>
+        {/each}
+      </tbody>
+    </table>
+  </div>
 {/if}
