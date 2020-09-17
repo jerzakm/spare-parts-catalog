@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { Tooltip, Button } from 'smelte'
+  import { Tooltip } from 'smelte'
   import { onMount } from 'svelte'
 
   export let name = ''
@@ -20,7 +20,7 @@
 
 <div
   class="container mx-auto max-w-xs rounded-lg shadow-lg my-2 bg-white flex
-  flex-col justify-between">
+    flex-col justify-between">
   <div class="relative mb-6">
     <img class="w-full" src={img} alt="Profile" />
     <div class="text-center absolute w-full -mt-4">
@@ -55,19 +55,26 @@
       {/each}
     </grid>
   </span>
-  <div class="px-6 pb-4">
+  <div class="px-6 pb-4 flex justify-between">
     <Tooltip>
       <div slot="activator">
-        <Button >Instrukcja</Button>
+        <button
+          class="bg-porange-400 hover:bg-blue-light text-white font-bold py-2
+            px-6 border-b-4 border-porange-500 hover:border-porange-100 rounded">
+          Instrukcja
+        </button>
       </div>
       Wyświetl instrukcję
     </Tooltip>
     <Tooltip>
       <div slot="activator">
-        <Button on:click={() => partDialogOpen = true}>Lista części</Button>
+        <button
+          class="bg-porange-400 hover:bg-blue-light text-white font-bold py-2
+            px-6 border-b-4 border-porange-500 hover:border-porange-100 rounded">
+          Lista części
+        </button>
       </div>
       Przejdź do listy części
     </Tooltip>
   </div>
-
 </div>
