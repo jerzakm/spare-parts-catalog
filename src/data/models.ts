@@ -3,6 +3,8 @@ export interface SparePart {
   symbol: string
   description: string
   image: string
+  type: string
+  fits: string[]
 }
 
 interface PartEntry {

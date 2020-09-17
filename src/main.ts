@@ -1,11 +1,13 @@
 import App from './App.svelte'
 import './global.css'
-import { loadProducts } from './data/loader'
+import { loadProducts, loadParts } from './data/loader'
 
-loadProducts()
+async function start() {
+  await loadProducts()
+  await loadParts()
+  new App({
+    target: document.body,
+  })
+}
 
-const app = new App({
-  target: document.body,
-})
-
-export default app
+start()
