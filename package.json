@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "start": "concurrently \"npm run client:dev\" \"npm run watch:css\"",
+    "build": "npm run client:build && npm run build:css",
     "validate": "svelte-check",
     "client:build": "rollup -c",
     "client:dev": "rollup -c -w",
