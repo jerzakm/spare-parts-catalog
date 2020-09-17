@@ -2,9 +2,7 @@ import svelte from 'rollup-plugin-svelte'
 import resolve from '@rollup/plugin-node-resolve'
 import commonjs from '@rollup/plugin-commonjs'
 import livereload from 'rollup-plugin-livereload'
-import {
-  terser
-} from 'rollup-plugin-terser'
+import { terser } from 'rollup-plugin-terser'
 import sveltePreprocess from 'svelte-preprocess'
 import typescript from '@rollup/plugin-typescript'
 import serve from 'rollup-plugin-serve'
@@ -36,7 +34,7 @@ export default {
       purge: production,
       output: 'public/build/smelte.css', // it defaults to static/global.css which is probably what you expect in Sapper
       postcss: [], // Your PostCSS plugins
-      whitelist: [], // Array of classnames whitelisted from purging
+      whitelist: ['[Pp][Rr][Ii][Mm]'], // Array of classnames whitelisted from purging
       whitelistPatterns: [], // Same as above, but list of regexes
       tailwind: {
         theme: {
@@ -77,16 +75,17 @@ export default {
     commonjs(),
     // Watch the `public` directory and refresh the
     // browser on changes when not in production
-    !production && serve({
-      open: true,
-      port: 3000,
-      contentBase: 'public'
-    }),
+    !production &&
+      serve({
+        open: true,
+        port: 3000,
+        contentBase: 'public',
+      }),
     !production && livereload('public'),
 
     // If we're building for production (npm run build
     // instead of npm run dev), minify
-    production && terser(),
+    // production && terser(),
   ],
   watch: {
     clearScreen: false,

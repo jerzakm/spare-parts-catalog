@@ -8,7 +8,8 @@
     "client:build": "rollup -c",
     "client:dev": "rollup -c -w",
     "watch:css": "postcss src/global.css -o public/build/global.css --watch --verbose",
-    "build:css": "NODE_ENV=production postcss src/global.css -o public/build/global.css"
+    "build:css": "NODE_ENV=production postcss src/global.css -o public/build/global.css",
+    "smelte": "NODE_ENV=production postcss public/build/smelte.css -o public/build/smelte2.css"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^14.0.0",
