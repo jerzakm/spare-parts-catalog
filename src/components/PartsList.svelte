@@ -8,6 +8,7 @@
   // export let manual = ''
 
   let name = params.name.replace('%20', ' ')
+  console.log(name)
   let img = ''
   let product
 
@@ -17,7 +18,7 @@
   productStore.subscribe((val) => {
     if (val) {
       for (const p of val) {
-        if (p.name == params.name) {
+        if (p.name == name) {
           product = p
         }
       }
