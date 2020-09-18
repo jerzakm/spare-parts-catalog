@@ -1,6 +1,8 @@
 <script lang="ts">
   import { Tooltip } from 'smelte'
   import { onMount } from 'svelte'
+  // @ts-ignore
+  import { push } from 'svelte-spa-router'
 
   export let name = ''
   // export let manual = ''
@@ -70,7 +72,10 @@
       <div slot="activator">
         <button
           class="bg-porange-400 hover:bg-blue-light text-white font-bold py-2
-            px-6 border-b-4 border-porange-500 hover:border-porange-100 rounded">
+            px-6 border-b-4 border-porange-500 hover:border-porange-100 rounded"
+          on:click={() => {
+            push(`/by-products/${name}`)
+          }}>
           Lista części
         </button>
       </div>

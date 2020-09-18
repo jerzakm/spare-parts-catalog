@@ -8,9 +8,11 @@
   import Header from './components/Header.svelte'
   import { onMount } from 'svelte'
   import 'smelte/src/tailwind.css'
+  import PartsList from './components/PartsList.svelte'
 
   const routes = {
     '/by-products': ByProduct,
+    '/by-products/:name': PartsList,
     '/by-parts': ByPart,
     '/parts-table': PartTable,
   }

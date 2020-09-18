@@ -1,5 +1,6 @@
 <script lang="ts">
   import ProductCard from '../components/ProductCard.svelte'
+  import PartsList from '../components/PartsList.svelte'
   import { productStore } from '../stores'
   import TextField from 'smelte/src/components/TextField'
 
@@ -12,7 +13,7 @@
   })
 </script>
 
-<filters class="flex items-center ">
+<filters class="flex items-center">
   <h2 class="mt-2 mb-6 mr-8">Filtry:</h2>
   <TextField label="Wyszukaj" outlined />
 </filters>

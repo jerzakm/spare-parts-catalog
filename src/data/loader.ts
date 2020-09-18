@@ -1,6 +1,7 @@
 import * as Papa from 'papaparse'
-import { productStore, partStore } from '../stores'
+import { productStore, partStore, partFitStore } from '../stores'
 import type { Product, SparePart } from './models'
+import { writable } from 'svelte/store'
 
 export const loadProducts = () => {
   return new Promise((resolve, reject) => {
@@ -77,6 +78,8 @@ export const loadParts = () => {
           delimiter: ';',
           complete: function (results) {
             const data: any[] = results.data
+
+            partFitStore.set(data)
 
             for (const p of data) {
               const part = partsList.find((a) => {

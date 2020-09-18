@@ -20,7 +20,7 @@
     if (p) {
       for (const part of p) {
         parts.push(part)
-        console.log(part)
+
         if (partsList[`${part.type}`]) {
           partsList[`${part.type}`].push(part)
         } else {
@@ -33,7 +33,6 @@
   })
 
   function partBelongs(part, product) {
-    // console.log(part, product)
     let fits = false
 
     for (const fit of part.fits) {
