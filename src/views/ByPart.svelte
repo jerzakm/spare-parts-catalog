@@ -15,8 +15,8 @@
           partsList[`${part.type}`] = [part]
         }
       }
-    }
-    Object.keys(partsList)
+      
+    }    
   })
 </script>
 
@@ -25,9 +25,9 @@
     {#each Object.keys(partsList) as group}
       <div>
         <h2 class="mt-2 mb-6 mr-8">{group}</h2>
-        <parts class="flex flex-row">
+        <parts class="flex flex-row flex-wrap">
           {#each partsList[`${group}`] as part}
-            <div class="bg-white mr-3">
+            <div class="bg-white mr-3 mb-3">
               <Card.Card
                 classes={'rounded inline-flex flex-col overflow-hidden duration-200 ease-in h-full'}>
                 <div slot="title">

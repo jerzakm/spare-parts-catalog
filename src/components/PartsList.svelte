@@ -75,7 +75,7 @@
   <div class="flex mt-6">
     <div
       class="container max-w-xs rounded-lg shadow-lg my-2 bg-white flex flex-col
-        justify-between">
+        justify-start">
       <div class="relative mb-6">
         <img class="w-full" src={img} alt="Profile" />
         <div class="text-center absolute w-full -mt-4">

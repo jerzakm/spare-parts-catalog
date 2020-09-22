@@ -1,10 +1,32 @@
 ﻿name;symbol;image;desc;type
-Oparcie 8904 - niebieskie;F.8904.N.OPARCIE;F.8904.N.OPARCIE.jpg;;Oparcia
-Siedzisko 8904 Niebieskie;F.8904.N.SIEDZISKO;F.8904.N.SIEDZISKO.jpg;;Siedziska
 Osłona na siłownik;CZ.24190;CZ.24190.jpg;;Inne
 Blacha 7410;CZ.BLACHA.7410;CZ.BLACHA.7410.jpg;;Blachy
 Blacha 8688 8906;CZ.BLACHA.8688;CZ.BLACHA.8688.jpg;;Blachy
 Zaślepki do otworu;CZ.486512;CZ.486512.jpg;;Inne
+Podłokietnik F.2030 F.8904 F.3031 LEWY;CZ.PODŁ.2030_L;CZ.PODŁ.2030.jpg;;Podłokietniki
+Podłokietnik F.2030 F.8904 F.3031 PRAWY;CZ.PODŁ.2030_P;CZ.PODŁ.2030.jpg;;Podłokietniki
+Blacha F.1032 F.8904 F.3031;CZ.BLACHA.1032;CZ.BLACHA.1032.jpg;;Blachy
+Siłownik 21/26 ;CZ.SIŁ.01459;CZ.SIŁ.01459.jpg;;Siłowniki
+Gwiazda plastik czarna 26,5cm;GWIAZDA.28255;GWIAZDA.28255.jpg;;Gwiazdy
+Kółko gumowane szare;KÓŁKO.1716;KÓŁKO.1716.jpg;;Inne
+Pokrętło do blachy 1032;CZ.POKR.1032;CZ.POKR.1032.jpg;;
+Śruba M6/16 mm G;ŚRUBA.G16;ŚRUBA.G16.jpg;;Śruby
+Śruba M6/12 mm G;ŚRUBA.G26;ŚRUBA.G26.jpg;;Śruby
+Podkładka M6;Podkładka.M6;Podkładka.M6.jpg;;Śruby
+Uchwyt oparcia (UFO);CZ.F.1032.UFO;CZ.F.1032.UFO.jpg;;Inne
+Ramię oparcia kształt L;CZ.RAMIE.1032;CZ.RAMIE.1032.jpg;;Inne
+Gwiazda plastik czarna 30cm;GWIAZDA.28286;GWIAZDA.28286.jpg;;Gwiazdy
+Siłownik 19;CZ.SIŁ.01825;CZ.SIŁ.01825.jpg;;Siłowniki
+Oparcie F.7410 CZARNY;F.7410.CZ.OPARCIE;;;Oparcia
+Oparcie F.7410 CZARNY+czerw;F.7410.BR.OPARCIE;;;Oparcia
+Oparcie F.7410-4009;F.7410-4009.OPARCIE;;;Oparcia
+Oparcie F.7410-4018;F.7410-4018.OPARCIE;;;Oparcia
+Siedzisko F.7410 CZARNY;F.7410.C SIEDZISKO;;;Siedziska
+Siedzisko F.7410 CZARNY+czerw;F.7410.BR.SIEDZISKO;;;Siedziska
+Siedzisko F.7410-4009;F.7410-400 SIEDZISKO;;;Siedziska
+Siedzisko F.7410-4018;F.7410-418 SIEDZISKO;;;Siedziska
+Oparcie 8904 - niebieskie;F.8904.N.OPARCIE;F.8904.N.OPARCIE.jpg;;Oparcia
+Siedzisko 8904 Niebieskie;F.8904.N.SIEDZISKO;F.8904.N.SIEDZISKO.jpg;;Siedziska
 Oparcie 3031 - czarne;F.3031.C OPARCIE;;;Oparcia
 Oparcie 3031 - 4005;F.3031.4005.OPARCIE;;;Oparcia
 Oparcie 3031 - 4009;F.3031.4009.OPARCIE;;;Oparcia
@@ -15,8 +37,7 @@ Siedzisko 3031 - 4005;F.3031.4005.SIEDZISK;;;Siedziska
 Siedzisko 3031 - 4009;F.3031.4009.SIEDZISK;;;Siedziska
 Siedzisko 3031 - 454;F.3031.454.SIEDZISKO;;;Siedziska
 Siedzisko 3031 - 486;F.3031.486.SIEDZISKO;;;Siedziska
-Podłokietnik F.2030 F.8904 F.3031 LEWY;CZ.PODŁ.2030_L;;;Podłokietniki
-Podłokietnik F.2030 F.8904 F.3031 PRAWY;CZ.PODŁ.2030_P;;;Podłokietniki
-Blacha F.1032 F.8904 F.3031;CZ.BLACHA.1032;;;Blachy
-Siłownik 21/26 ;CZ.SIŁ.01459;;;Siłowniki
-Gwiazda plastik czarna 26,5cm;GWIAZDA.28255;;;Gwiazdy
+Podłokietnik F.7410 LEWY;PODŁ.7410_L;PODŁ.7410_L.jpg;;Podłokietniki
+Podłokietnik F.7410 PRAWY;PODŁ.7410_P;PODŁ.7410_L.jpg;;Podłokietniki
+Śruba M6/16 mm A;ŚRUBA.A16;;;Śruby
+Śruba M6/26 mm A;ŚRUBA.A26;;;Śruby

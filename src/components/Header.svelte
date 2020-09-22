@@ -12,7 +12,7 @@
 
 <div class="flex flex-column items-center justify-between">
   <a href="/by-products" class="flex-1" use:link>
-    <h1 class="">Katalog części foteli</h1>
+    <h1 class="">Katalog części mebli</h1>
   </a>
   <nav class="flex-1 flex flex-column items-end justify-end">
     <a
