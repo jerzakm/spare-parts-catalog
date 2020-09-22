@@ -59,7 +59,7 @@
         <tr>
           <th class="z-10 bg-porange-100" />
           {#each parts as part}
-            <th class="w-16 py-32 bg-porange-100 z-10 parts-table-grid-border">
+            <th class="w-16 py-32 px-2 bg-porange-100 z-10 parts-table-grid-border">
               <div
                 class="parts-table-header-symbol flex pb-4 whitespace-no-wrap
                   items-center flex-col">
