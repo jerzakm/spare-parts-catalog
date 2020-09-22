@@ -1,7 +1,7 @@
 ﻿name;symbol;image;desc;type
 Osłona na siłownik;CZ.24190;CZ.24190.jpg;;Inne
 Blacha 7410;CZ.BLACHA.7410;CZ.BLACHA.7410.jpg;;Blachy
-Blacha 8688 8906;CZ.BLACHA.8688;CZ.BLACHA.8688.jpg;;Blachy
+Blacha 8688;CZ.BLACHA.8688;CZ.BLACHA.8688.jpg;;Blachy
 Zaślepki do otworu;CZ.486512;CZ.486512.jpg;;Inne
 Podłokietnik F.2030 F.8904 F.3031 LEWY;CZ.PODŁ.2030_L;CZ.PODŁ.2030.jpg;;Podłokietniki
 Podłokietnik F.2030 F.8904 F.3031 PRAWY;CZ.PODŁ.2030_P;CZ.PODŁ.2030.jpg;;Podłokietniki
@@ -9,6 +9,8 @@ Blacha F.1032 F.8904 F.3031;CZ.BLACHA.1032;CZ.BLACHA.1032.jpg;;Blachy
 Siłownik 21/26 ;CZ.SIŁ.01459;CZ.SIŁ.01459.jpg;;Siłowniki
 Gwiazda plastik czarna 26,5cm;GWIAZDA.28255;GWIAZDA.28255.jpg;;Gwiazdy
 Kółko gumowane szare;KÓŁKO.1716;KÓŁKO.1716.jpg;;Inne
+Kółko gumowane białe;KÓŁKO.2518;KÓŁKO.2518.jpg;;Inne
+Kółko gumowane czerwone;KÓŁKO.2519;KÓŁKO.2519.jpg;;Inne
 Pokrętło do blachy 1032;CZ.POKR.1032;CZ.POKR.1032.jpg;;
 Śruba M6/16 mm G;ŚRUBA.G16;ŚRUBA.G16.jpg;;Śruby
 Śruba M6/12 mm G;ŚRUBA.G26;ŚRUBA.G26.jpg;;Śruby
@@ -41,3 +43,27 @@ Podłokietnik F.7410 LEWY;PODŁ.7410_L;PODŁ.7410_L.jpg;;Podłokietniki
 Podłokietnik F.7410 PRAWY;PODŁ.7410_P;PODŁ.7410_L.jpg;;Podłokietniki
 Śruba M6/16 mm A;ŚRUBA.A16;;;Śruby
 Śruba M6/26 mm A;ŚRUBA.A26;;;Śruby
+Śruba M6/20 mm A;ŚRUBA.A20;;;Śruby
+Gwiazda plastik 29,5 gaming czarno-biała;GWIAZDA.ULR.W;GWIAZDA.ULR.W.jpg;;Gwiazdy
+Gwiazda plastik 29,5 gaming czarno-szara;GWIAZDA.ULR.G;GWIAZDA.ULR.G.jpg;;Gwiazdy
+Gwiazda plastik 29,5 gaming czarno-czerwona;GWIAZDA.ULR.R;GWIAZDA.ULR.R.jpg;;Gwiazdy
+Blacha gaming Ymir Ullr;CZ.BLACHA.ULR;;;Blachy
+Siłownik 20cm Nordhold;CZ.SIŁOWNIK.YMR20;;;Siłowniki
+Śruba M8/50 mm A;ŚRUBA.A50.8;;;Śruby
+Śruba M8/20mm A;ŚRUBA.A20.8;;;Śruby
+Śruba M8/30mm A;ŚRUBA.A30.8;;;Śruby
+Śruba M4/8mm G;ŚRUBA.G8.4;;;Śruby
+Ullr podłokietnik L;CZ.PODŁ.ULR.L;;;Podłokietniki
+Ullr podłokietnik P;CZ.PODŁ.ULR.P;;;Podłokietniki
+Oparcie Ullr Biały;CZ.OPARCIE.ULR-W;;;Oparcia
+Oparcie Ullr Czerwony;CZ.OPARCIE.ULR-R;;;Oparcia
+Oparcie Ullr Szary;CZ.OPARCIE.ULR-G;;;Oparcia
+Siedzisko Ullr Biały;CZ.SIEDZ.ULR-W;;;Siedziska
+Siedzisko Ullr Czerwony	;CZ.SIEDZ.ULR-R;;;Siedziska
+Siedzisko Ullr Szary;CZ.SIEDZ.ULR-G;;;Siedziska
+Ymir podłokietnik Lewy;CZ.PODŁ.YMR.L;;;Podłokietniki
+Ymir podłokietnik Prawy;CZ.PODŁ.YMR.P;;;Podłokietniki
+Osłona mechanizmu oparcia;CZ.OSŁONA_OP.YMR;;;Inne
+Gwiazda plastik czarna Ymir 33cm;CZ.GWIAZDA.YMR;CZ.GWIAZDA.YMR.jpg;;Gwiazdy
+Ymir łączenie siedziska z oparciem - zawias blok;CZ.YMR.06;;;Inne
+Ymir łączenie siedziska z oparciem - zawias luz;CZ.YMR.07;;;Inne

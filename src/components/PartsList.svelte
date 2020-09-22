@@ -103,7 +103,7 @@
               class="bg-porange-400 hover:bg-blue-light text-white font-bold
                 py-2 px-16 border-b-4 border-porange-500
                 hover:border-porange-100 rounded">
-              Instrukcja
+              <a href={`${product.manual}`} target=”_blank”>Instrukcja</a>
             </button>
           </div>
           Wyświetl instrukcję
