@@ -11,6 +11,7 @@
   import PartsList from './components/PartsList.svelte'
 
   const routes = {
+    '/': ByProduct,
     '/by-products': ByProduct,
     '/by-products/:name': PartsList,
     '/by-parts': ByPart,

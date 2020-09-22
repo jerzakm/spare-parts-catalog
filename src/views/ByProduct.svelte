@@ -9,6 +9,7 @@
   productStore.subscribe((val) => {
     if (val) {
       products = val
+      console.log(products)
     }
   })
 </script>
@@ -20,6 +21,6 @@
 
 <container class="flex flex-wrap justify-between content-between">
   {#each products as product}
-    <ProductCard name={product.name} variants={product.variants} />
+    <ProductCard name={product.name} variants={product.variants} manual={product.manual}/>
   {/each}
 </container>

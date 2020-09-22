@@ -40,7 +40,7 @@
                   style="max-height: 20rem;">
                   <img
                     src={`images/${part.image}`}
-                    alt="kitty"
+                    alt="part image"
                     style="max-height: 20rem;" />
                 </div>
                 <div
