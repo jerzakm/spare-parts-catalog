@@ -30,12 +30,15 @@
       for (const part of p) {
         for (const fits of part.fits) {
           if (fits == name) {
-            parts.push(part)
+            const nPart = { ...part }
+            parts.push(nPart)
             break
           }
           for (const variant of product.variants) {
             if (fits == variant.symbol) {
-              parts.push(part)
+              const nPart = { ...part }
+              nPart.variant = variant.symbol
+              parts.push(nPart)
               break
             }
           }
@@ -103,7 +106,7 @@
               class="bg-porange-400 hover:bg-blue-light text-white font-bold
                 py-2 px-16 border-b-4 border-porange-500
                 hover:border-porange-100 rounded">
-              <a href={`${product.manual}`} target=”_blank”>Instrukcja</a>
+              <a href={`${product.manual}`} target="”_blank”">Instrukcja</a>
             </button>
           </div>
           Wyświetl instrukcję
@@ -130,6 +133,9 @@
               <td class="parts-table-grid-border p-2">{part.name}</td>
               <td class="parts-table-grid-border p-2">{part.qty}</td>
               <td class="parts-table-grid-border p-2 w-48">
+                {#if part.variant}
+                  <p class="text-lg text-orange-600">do {part.variant}</p>
+                {/if}
                 {part.description}
               </td>
               <td class="parts-table-grid-border p-2">{part.type}</td>
