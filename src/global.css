@@ -46,8 +46,8 @@ button:focus {
 
 
 .parts-table-container {
-  max-width: 80%;
-  max-height: 80vh;
+  max-width: 100%;
+  max-height: 85vh;
   overflow: scroll;
   position: relative;
 }

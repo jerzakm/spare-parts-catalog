@@ -15,8 +15,8 @@
           partsList[`${part.type}`] = [part]
         }
       }
-    }
-    Object.keys(partsList)
+      
+    }    
   })
 </script>
 
@@ -25,9 +25,9 @@
     {#each Object.keys(partsList) as group}
       <div>
         <h2 class="mt-2 mb-6 mr-8">{group}</h2>
-        <parts class="flex flex-row">
+        <parts class="flex flex-row flex-wrap">
           {#each partsList[`${group}`] as part}
-            <div class="bg-white mr-3">
+            <div class="bg-white mr-3 mb-3">
               <Card.Card
                 classes={'rounded inline-flex flex-col overflow-hidden duration-200 ease-in h-full'}>
                 <div slot="title">
@@ -40,16 +40,14 @@
                   style="max-height: 20rem;">
                   <img
                     src={`images/${part.image}`}
-                    alt="kitty"
+                    alt="part image"
                     style="max-height: 20rem;" />
                 </div>
                 <div
                   slot="text"
                   class="p-5 pb-0 pt-3 text-gray-700 body-2 flex flex-col
                     max-w-sm">
-                  <div>
-                    (Tutaj krótki opis, wymiar lub inne dane) {part.description}
-                  </div>
+                  <div class="text-xl">{part.description}</div>
                   <span class="text-gray-900 text-lg mt-2">Pasuje do:</span>
                   <div class="grid grid-cols-3 px-6 py-4 gap-0">
                     {#each part.fits as fit}<span>{fit}</span>{/each}

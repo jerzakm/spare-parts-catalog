@@ -75,7 +75,7 @@
   <div class="flex mt-6">
     <div
       class="container max-w-xs rounded-lg shadow-lg my-2 bg-white flex flex-col
-        justify-between">
+        justify-start">
       <div class="relative mb-6">
         <img class="w-full" src={img} alt="Profile" />
         <div class="text-center absolute w-full -mt-4">
@@ -103,7 +103,7 @@
               class="bg-porange-400 hover:bg-blue-light text-white font-bold
                 py-2 px-16 border-b-4 border-porange-500
                 hover:border-porange-100 rounded">
-              Instrukcja
+              <a href={`${product.manual}`} target=”_blank”>Instrukcja</a>
             </button>
           </div>
           Wyświetl instrukcję

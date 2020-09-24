@@ -5,7 +5,7 @@
   import { push } from 'svelte-spa-router'
 
   export let name = ''
-  // export let manual = ''
+  export let manual = ''
   export let variants = []
 
   let partDialogOpen = false
@@ -24,7 +24,7 @@
   class="container mx-auto max-w-xs rounded-lg shadow-lg my-2 bg-white flex
     flex-col justify-between">
   <div class="relative mb-6">
-    <img class="w-full" src={img} alt="Profile" />
+    <img class="w-full" src={img} alt="Product" />
     <div class="text-center absolute w-full -mt-4">
       <h2>{name}</h2>
     </div>
@@ -63,7 +63,7 @@
         <button
           class="bg-porange-400 hover:bg-blue-light text-white font-bold py-2
             px-6 border-b-4 border-porange-500 hover:border-porange-100 rounded">
-          Instrukcja
+          <a href={`${manual}`} target=”_blank”>Instrukcja</a>
         </button>
       </div>
       Wyświetl instrukcję

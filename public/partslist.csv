@@ -1,7 +1,111 @@
 ﻿name;symbol;image;desc;type
+Osłona na siłownik;CZ.24190;CZ.24190.jpg;;Inne
+Blacha 7410;CZ.BLACHA.7410;CZ.BLACHA.7410.jpg;25x15cm;Blachy
+Blacha 8688;CZ.BLACHA.8688;CZ.BLACHA.8688.jpg;18x15cm bujanie;Blachy
+Blacha 1103;CZ.BLACHA.1103;CZ.BLACHA.1103;;18x15cm bujanie bez bujania;Blachy
+Zaślepki do otworu;CZ.486512;CZ.486512.jpg;;Inne
+Podłokietnik F.2030 F.8904 F.3031 LEWY;CZ.PODŁ.2030_L;CZ.PODŁ.2030.jpg;;Podłokietniki
+Podłokietnik F.2030 F.8904 F.3031 PRAWY;CZ.PODŁ.2030_P;CZ.PODŁ.2030.jpg;;Podłokietniki
+Blacha F.1032 F.8904 F.3031;CZ.BLACHA.1032;CZ.BLACHA.1032.jpg;18x15cm bez bujania;Blachy
+Siłownik 21/26 ;CZ.SIŁ.01459;CZ.SIŁ.01459.jpg;21 cm;Siłowniki
+Gwiazda plastik czarna 26,5cm;GWIAZDA.28255;GWIAZDA.28255.jpg;;Gwiazdy
+Gwiazda chrom 30cm;GWIAZDA.2502;GWIAZDA.2502.jpg;;Gwiazdy
+Kółko gumowane szare;KÓŁKO.1716;KÓŁKO.1716.jpg;;Inne
+Kółko gumowane białe;KÓŁKO.2518;KÓŁKO.2518.jpg;;Inne
+Kółko gumowane czerwone;KÓŁKO.2519;KÓŁKO.2519.jpg;;Inne
+Pokrętło do blachy 1032;CZ.POKR.1032;CZ.POKR.1032.jpg;;
+Śruba M6/16 mm G;ŚRUBA.G16;ŚRUBA.G16.jpg;;Śruby
+Śruba M6/12 mm G;ŚRUBA.G26;ŚRUBA.G26.jpg;;Śruby
+Podkładka M6;Podkładka.M6;Podkładka.M6.jpg;;Śruby
+Uchwyt oparcia (UFO);CZ.F.1032.UFO;CZ.F.1032.UFO.jpg;;Inne
+Ramię oparcia kształt L;CZ.RAMIE.1032;CZ.RAMIE.1032.jpg;;Inne
+Gwiazda plastik czarna 30cm;GWIAZDA.28286;GWIAZDA.28286.jpg;;Gwiazdy
+Gwiazda plastik czarna 28cm;GWIAZDA.28245;;;Gwiazdy
+Siłownik 19;CZ.SIŁ.01825;CZ.SIŁ.01825.jpg;19 cm;Siłowniki
+Oparcie F.7410 CZARNY;F.7410.CZ.OPARCIE;;;Oparcia
+Oparcie F.7410 CZARNY+czerw;F.7410.BR.OPARCIE;;;Oparcia
+Oparcie F.7410-4009;F.7410-4009.OPARCIE;;;Oparcia
+Oparcie F.7410-4018;F.7410-4018.OPARCIE;;;Oparcia
+Siedzisko F.7410 CZARNY;F.7410.C SIEDZISKO;;;Siedziska
+Siedzisko F.7410 CZARNY+czerw;F.7410.BR.SIEDZISKO;;;Siedziska
+Siedzisko F.7410-4009;F.7410-400 SIEDZISKO;;;Siedziska
+Siedzisko F.7410-4018;F.7410-418 SIEDZISKO;;;Siedziska
 Oparcie 8904 - niebieskie;F.8904.N.OPARCIE;F.8904.N.OPARCIE.jpg;;Oparcia
 Siedzisko 8904 Niebieskie;F.8904.N.SIEDZISKO;F.8904.N.SIEDZISKO.jpg;;Siedziska
-Osłona na siłownik;CZ.24190;CZ.24190.jpg;;Inne
-Blacha 7410;CZ.BLACHA.7410;CZ.BLACHA.7410.jpg;;Blachy
-Blacha 8688 8906;CZ.BLACHA.8688;CZ.BLACHA.8688.jpg;;Blachy
-Zaślepki do otworu;CZ.486512;CZ.486512.jpg;;Inne
+Oparcie 3031 - czarne;F.3031.C OPARCIE;;;Oparcia
+Oparcie 3031 - 4005;F.3031.4005.OPARCIE;;;Oparcia
+Oparcie 3031 - 4009;F.3031.4009.OPARCIE;;;Oparcia
+Oparcie 3031 - 454;F.3031.454.OPARCIE;;;Oparcia
+Oparcie 3031 - 486;F.3031.486.OPARCIE;;;Oparcia
+Siedzisko 3031 - czarne;F.3031.C SIEDZISKO;;;Siedziska
+Siedzisko 3031 - 4005;F.3031.4005.SIEDZISK;;;Siedziska
+Siedzisko 3031 - 4009;F.3031.4009.SIEDZISK;;;Siedziska
+Siedzisko 3031 - 454;F.3031.454.SIEDZISKO;;;Siedziska
+Siedzisko 3031 - 486;F.3031.486.SIEDZISKO;;;Siedziska
+Podłokietnik F.7410 LEWY;PODŁ.7410_L;PODŁ.7410_L.jpg;;Podłokietniki
+Podłokietnik F.7410 PRAWY;PODŁ.7410_P;PODŁ.7410_L.jpg;;Podłokietniki
+Śruba M6/16 mm A;ŚRUBA.A16;;;Śruby
+Śruba M6/26 mm A;ŚRUBA.A26;;;Śruby
+Śruba M6/20 mm A;ŚRUBA.A20;;;Śruby
+Gwiazda plastik 29,5 gaming czarno-biała;GWIAZDA.ULR.W;GWIAZDA.ULR.W.jpg;;Gwiazdy
+Gwiazda plastik 29,5 gaming czarno-szara;GWIAZDA.ULR.G;GWIAZDA.ULR.G.jpg;;Gwiazdy
+Gwiazda plastik 29,5 gaming czarno-czerwona;GWIAZDA.ULR.R;GWIAZDA.ULR.R.jpg;;Gwiazdy
+Blacha gaming Ymir Ullr;CZ.BLACHA.ULR;CZ.BLACHA.ULR.jpg;15x25 cm Tilt;Blachy
+Siłownik 20cm Nordhold;CZ.SIŁOWNIK.YMR20;CZ.SIŁOWNIK.YMR20.jpg;20cm;Siłowniki
+Śruba M8/50 mm A;ŚRUBA.A50.8;;;Śruby
+Śruba M8/20mm A;ŚRUBA.A20.8;;;Śruby
+Śruba M8/30mm A;ŚRUBA.A30.8;;;Śruby
+Śruba M4/8mm G;ŚRUBA.G8.4;;;Śruby
+Ullr podłokietnik L;CZ.PODŁ.ULR.L;CZ.PODŁ.ULR.L.jpg;;Podłokietniki
+Ullr podłokietnik P;CZ.PODŁ.ULR.P;CZ.PODŁ.ULR.L.jpg;;Podłokietniki
+Oparcie Ullr Biały;CZ.OPARCIE.ULR-W;;;Oparcia
+Oparcie Ullr Czerwony;CZ.OPARCIE.ULR-R;;;Oparcia
+Oparcie Ullr Szary;CZ.OPARCIE.ULR-G;;;Oparcia
+Siedzisko Ullr Biały;CZ.SIEDZ.ULR-W;;;Siedziska
+Siedzisko Ullr Czerwony	;CZ.SIEDZ.ULR-R;;;Siedziska
+Siedzisko Ullr Szary;CZ.SIEDZ.ULR-G;;;Siedziska
+Ymir podłokietnik Lewy;CZ.PODŁ.YMR.L;CZ.PODŁ.YMR.jpg;;Podłokietniki
+Ymir podłokietnik Prawy;CZ.PODŁ.YMR.P;CZ.PODŁ.YMR.jpg;;Podłokietniki
+Osłona mechanizmu oparcia;CZ.OSŁONA_OP.YMR;;;Inne
+Gwiazda plastik czarna Ymir 33cm;CZ.GWIAZDA.YMR;CZ.GWIAZDA.YMR.jpg;;Gwiazdy
+Ymir łączenie siedziska z oparciem - zawias blok;CZ.YMR.06;CZ.YMR.06.jpg;;Inne
+Ymir łączenie siedziska z oparciem - zawias luz;CZ.YMR.07;CZ.YMR.06.jpg;;Inne
+Oparcie F.1032 CZARNE;F.1032.C.OPARCIE;;;Oparcia
+Oparcie F.1032 NIEBIESKI;F.1032.N.OPARCIE;;;Oparcia
+Oparcie F.1032 SZARE;F.1032.S.OPARCIE;;;Oparcia
+Siedzisko F.1032 CZARNE;F.1032.C.SIEDZISKO;;;Siedziska
+Siedzisko F.1032 NIEBIESKIE;F.1032.N.SIEDZISKO;;;Siedziska
+Siedzisko F.1032 SZARE;F.1032.S.SIEDZISKO;;;Siedziska
+Osłona ramienia harmonia;CZ.1032.HARMONIA;CZ.1032.HARMONIA.jpg;;Inne
+Oparcie F.1103 CZARNE;F.1103.C.OPARCIE;;;Oparcia
+Oparcie F.1103 NIEBIESKIE;F.1103.N.OPARCIE;;;Oparcia
+Oparcie F.1103 SZARE;F.1103.S.OPARCIE;;;Oparcia
+Siedzisko F.1103 CZARNE;F.1103.C.SIEDZISKO;;;Siedziska
+Siedzisko F.1103 NIEBIESKIE;F.1103.N.SIEDZISKO;;;Siedziska
+Siedzisko F.1103 SZARE;F.1103.S.SIEDZISKO;;;Siedziska
+Podłokietnik F.1103 F.8906 Lewy;CZ.PDŁ.1103.L;CZ.PDŁ.1103.L.jpg;;Podłokietniki
+Podłokietnik F.1103 F.8906 Prawy;CZ.PDŁ.1103.P;CZ.PDŁ.1103.P.jpg;;Podłokietniki
+TILT krótki 9,5cm;CZ.TILT.95;CZ.TILT.95.jpg;;Inne
+Sworzeń 4,7 cm i zawleczka 1103 2030P 8906;CZ.1103.SW47;;;Inne
+Oparcie F.2030P CZARNY;F.2030P.C.OPARCIE;;;Oparcia
+Oparcie F.2030P NIEBIESKI;F.2030P.N.OPARCIE ;;;Oparcia
+Oparcie F.2030P SZARY;F.2030P.S. OPARCIE;;;Oparcia
+Siedzisko F.2030P CZARNY;F.2030P.C.SIEDZISKO;;;Siedziska
+Siedzisko F.2030P NIEBIESKI;F.2030P.N.SIEDZISKO;;;Siedziska
+Siedzisko F.2030P SZARY;F.2030P.S.SIEDZISKO;;;Siedziska
+Podłokietnik 7415 LEWY;CZ.PODŁ.7415.L;CZ.PDŁ.7415.jpg;;Podłokietniki
+Podłokietnik 7415 PRAWY;CZ.PODŁ.7415.P;CZ.PDŁ.7415.jpg;;Podłokietniki
+Tilt długi 11cm;CZ.TILT.11;;;Inne
+Oparcie F600 Szare;F600.OPARCIE.SZ;;;Oparcia
+Siedzisko F600 Szare;F600.SIEDZISKO.SZ;;;Siedziska
+Podłokietnik F600 Lewy;CZ.PODŁ.F600.L;;;Podłokietniki
+Podłokietnik F600 Prawy;CZ.PODŁ.F600.P;;;Podłokietniki
+Siłownik 20,5cm Chrom;CZ.SIŁ.CH205;;20,5 cm;Siłowniki
+Blacha Nordhold 2701;CZ.BLACHA.2701;;15x20cm odchylanie oparcia;Blachy
+Blacha Nordhold 2601;CZ.BLACHA.2601;;;Blachy
+Gwiazda plastik czarna 2601 2701 32cm;GWIAZDA.2701;;;Gwiazdy
+Blacha 8606 T;CZ.BLACHA.8606;;Kształt T tylko 8606;Blachy
+Blacha Skadi;CZ.BLACHA.SKD;;;Blachy
+Ymir ramka oparcia;CZ.NH.YMR-CZ18;CZ.NH.YMR-CZ18.jpg;;Inne
+Siłownik Skadi Chrom;CZ.SIŁ.SKD;;;Siłowniki
+Blacha 2502;CZ.BLACHA.2502;;22x15cm;Blachy

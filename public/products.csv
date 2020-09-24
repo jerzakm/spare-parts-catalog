@@ -1,5 +1,5 @@
 ﻿name;manual;symbol;image
-3031;;F.3031.ES;https://www.dwunastka.net.pl/galerie/f/fotel-biurowy-3031-czarny_8572_k.jpg
+3031;manuals/3031.pdf;F.3031.ES;https://www.dwunastka.net.pl/galerie/f/fotel-biurowy-3031-czarny_8572_k.jpg
 3031;;F.3031.ES-4005;https://www.dwunastka.net.pl/galerie/f/fotel-biurowy-3031-bezowy-4005_8584_k.jpg
 3031;;F.3031.ES-4009;https://www.dwunastka.net.pl/galerie/f/fotel-biurowy-3031-brazowy-400_8581_k.jpg
 3031;;F.3031.ES-454;https://www.dwunastka.net.pl/galerie/f/fotel-biurowy-3031-bezowy-454_8587_k.jpg
@@ -7,14 +7,14 @@
 6032;;F.6032.ES;https://www.dwunastka.net.pl/galerie/f/fotel-biurowy-6032-czarny_8561_k.jpg
 6032;;F.6032.4009;https://www.dwunastka.net.pl/galerie/f/fotel-biurowy-6032-brazowy-400_8569_k.jpg
 6032;;F.6032.4018;https://www.dwunastka.net.pl/galerie/o/obrotowy-fotel-6032_5908_k.jpg
-7410;;F.7410.BR;https://www.dwunastka.net.pl/galerie/f/fotel-biurowy-7410-czarno-czer_8536_k.jpg
+7410;manuals/7410.pdf;F.7410.BR;https://www.dwunastka.net.pl/galerie/f/fotel-biurowy-7410-czarno-czer_8536_k.jpg
 7410;;F.7410.ES;https://www.dwunastka.net.pl/galerie/f/fotel-biurowy-7410-czarny_8552_k.jpg
 7410;;F.7410.ES-4009;https://www.dwunastka.net.pl/galerie/f/fotel-biurowy-7410-brazowy-400_8547_k.jpg
 7410;;F.7410.ES-4018;https://www.dwunastka.net.pl/galerie/f/fotel-biurowy-7410-bezowy-4018_8550_k.jpg
-Ullr;;NH-ULR-W;https://www.dwunastka.net.pl/galerie/f/fotel-gamingowy-nordhold-ullr_8672_k.jpg
+Ullr;manuals/ullr.pdf;NH-ULR-W;https://www.dwunastka.net.pl/galerie/f/fotel-gamingowy-nordhold-ullr_8672_k.jpg
 Ullr;;NH-ULR-R;https://www.dwunastka.net.pl/galerie/f/fotel-gamingowy-nordhold-ullr_8667_k.jpg
 Ullr;;NH-ULR-G;https://www.dwunastka.net.pl/galerie/f/fotel-gamingowy-nordhold-ullr_8662_k.jpg
-Ymir;;NH-YMR-W;https://www.dwunastka.net.pl/galerie/f/fotel-gamingowy-nordhold-ymir_8632_k.jpg
+Ymir;manuals/ymir.pdf;NH-YMR-W;https://www.dwunastka.net.pl/galerie/f/fotel-gamingowy-nordhold-ymir_8632_k.jpg
 Ymir;;NH-YMR-CR;https://www.dwunastka.net.pl/galerie/f/fotel-gamingowy-nordhold-ymir_8613_k.jpg
 Ymir;;NH-YMR-R;https://www.dwunastka.net.pl/galerie/f/fotel-gamingowy-nordhold-ymir_8596_k.jpg
 Ymir;;NH-YMR-P;https://www.dwunastka.net.pl/galerie/f/fotel-gamingowy-nordhold-ymir_8622_k.jpg
@@ -25,7 +25,7 @@ Ymir;;NH-YMR-Y;https://www.dwunastka.net.pl/galerie/f/fotel-gamingowy-nordhold-y
 1032;;FM.1032.C;https://www.dwunastka.net.pl/galerie/f/fotel-biurowy-1032-czarny_8509_k.jpg
 1032;;FM.1032.N;https://www.dwunastka.net.pl/galerie/f/fotel-biurowy-1032-niebieski_8518_k.jpg
 1032;;FM.1032.S;https://www.dwunastka.net.pl/galerie/f/fotel-biurowy-1032-szary_8515_k.jpg
-1103;;FM.1103B.C;https://www.dwunastka.net.pl/galerie/f/fotel-biurowy-1103-czarny_8502_k.jpg
+1103;manuals/1103.pdf;FM.1103B.C;https://www.dwunastka.net.pl/galerie/f/fotel-biurowy-1103-czarny_8502_k.jpg
 1103;;FM.1103B.N;https://www.dwunastka.net.pl/galerie/f/fotel-biurowy-1103-niebieski_9962_k.jpg
 1103;;FM.1103B.S;https://www.dwunastka.net.pl/galerie/f/fotel-biurowy-1103-szary_8507_k.jpg
 2030;;FM.2030P.C;https://www.dwunastka.net.pl/galerie/f/fotel-biurowy-2030-p-czarny_8490_k.jpg
@@ -75,4 +75,9 @@ Skadi PLUS;;NH-SKD-P-R;https://www.dwunastka.net.pl/galerie/f/fotel-biurowy-ergo
 Skadi PLUS;;NH-SKD-P-GR;https://www.dwunastka.net.pl/galerie/f/fotel-biurowy-ergo-nordhold-sk_8691_k.jpg
 Racer 249;;F.249.C;https://www.dwunastka.net.pl/galerie/f/fotel-biurowy-racer-249-czerwo_8527_k.jpg
 Racer 249;;F.249.N ;https://www.dwunastka.net.pl/galerie/f/fotel-biurowy-racer-249-niebie_8525_k.jpg
-Racer 249;;F.249.S;https://www.dwunastka.net.pl/galerie/f/fotel-biurowy-racer-249-szary_8523_k.jpg
+Racer 249;;F.249.S;https://www.dwunastka.net.pl/galerie/f/fotel-biurowy-racer-249-szary_8523_k.jpg  
+7000P;;NH-7000P;https://www.dwunastka.net.pl/galerie/f/fotel-biurowy-nordhold-7000p_10002_k.jpg
+Aeron;;NH-AERON;https://www.dwunastka.net.pl/galerie/f/fotel-gamingowy-nordhold-aeron_9968_k.jpg
+H801;;H801.BLACK;https://www.dwunastka.net.pl/galerie/h/hoker-barowy-h801-czarny_9977_k.jpg
+H804;;H804.BLACK;https://www.dwunastka.net.pl/galerie/h/hoker-barowy-h804-czarny_9985_k.jpg
+H900;;H900.BLACK;https://www.dwunastka.net.pl/galerie/h/hoker-barowy-h900-czarny_9996_k.jpg
