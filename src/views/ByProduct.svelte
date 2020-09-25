@@ -14,13 +14,16 @@
   })
 </script>
 
-<filters class="flex items-center">
+<!-- <filters class="flex items-center">
   <h2 class="mt-2 mb-6 mr-8">Filtry:</h2>
   <TextField label="Wyszukaj" outlined />
-</filters>
+</filters> -->
 
 <container class="flex flex-wrap justify-between content-between">
   {#each products as product}
-    <ProductCard name={product.name} variants={product.variants} manual={product.manual}/>
+    <ProductCard
+      name={product.name}
+      variants={product.variants}
+      manual={product.manual} />
   {/each}
 </container>

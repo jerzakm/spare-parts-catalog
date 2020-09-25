@@ -1,19 +1,19 @@
 ﻿name;symbol;image;desc;type
-Osłona na siłownik;CZ.24190;CZ.24190.jpg;;Inne
 Blacha 7410;CZ.BLACHA.7410;CZ.BLACHA.7410.jpg;25x15cm;Blachy
+Gwiazda plastik czarna 26,5cm;GWIAZDA.28255;GWIAZDA.28255.jpg;;Gwiazdy
+Siłownik 21/26 ;CZ.SIŁ.01459;CZ.SIŁ.01459.jpg;21 cm;Siłowniki
 Blacha 8688;CZ.BLACHA.8688;CZ.BLACHA.8688.jpg;18x15cm bujanie;Blachy
-Blacha 1103;CZ.BLACHA.1103;CZ.BLACHA.1103;;18x15cm bujanie bez bujania;Blachy
+Blacha 1103;CZ.BLACHA.1103;CZ.BLACHA.1103.jpg;18x15cm bujanie bez bujania;Blachy
 Zaślepki do otworu;CZ.486512;CZ.486512.jpg;;Inne
 Podłokietnik F.2030 F.8904 F.3031 LEWY;CZ.PODŁ.2030_L;CZ.PODŁ.2030.jpg;;Podłokietniki
 Podłokietnik F.2030 F.8904 F.3031 PRAWY;CZ.PODŁ.2030_P;CZ.PODŁ.2030.jpg;;Podłokietniki
 Blacha F.1032 F.8904 F.3031;CZ.BLACHA.1032;CZ.BLACHA.1032.jpg;18x15cm bez bujania;Blachy
-Siłownik 21/26 ;CZ.SIŁ.01459;CZ.SIŁ.01459.jpg;21 cm;Siłowniki
-Gwiazda plastik czarna 26,5cm;GWIAZDA.28255;GWIAZDA.28255.jpg;;Gwiazdy
+Osłona na siłownik;CZ.24190;CZ.24190.jpg;;Inne
 Gwiazda chrom 30cm;GWIAZDA.2502;GWIAZDA.2502.jpg;;Gwiazdy
 Kółko gumowane szare;KÓŁKO.1716;KÓŁKO.1716.jpg;;Inne
 Kółko gumowane białe;KÓŁKO.2518;KÓŁKO.2518.jpg;;Inne
 Kółko gumowane czerwone;KÓŁKO.2519;KÓŁKO.2519.jpg;;Inne
-Pokrętło do blachy 1032;CZ.POKR.1032;CZ.POKR.1032.jpg;;
+Pokrętło do blachy 1032;CZ.POKR.1032;CZ.POKR.1032.jpg;;Inne
 Śruba M6/16 mm G;ŚRUBA.G16;ŚRUBA.G16.jpg;;Śruby
 Śruba M6/12 mm G;ŚRUBA.G26;ŚRUBA.G26.jpg;;Śruby
 Podkładka M6;Podkładka.M6;Podkładka.M6.jpg;;Śruby
@@ -103,7 +103,7 @@ Podłokietnik F600 Prawy;CZ.PODŁ.F600.P;;;Podłokietniki
 Siłownik 20,5cm Chrom;CZ.SIŁ.CH205;;20,5 cm;Siłowniki
 Blacha Nordhold 2701;CZ.BLACHA.2701;;15x20cm odchylanie oparcia;Blachy
 Blacha Nordhold 2601;CZ.BLACHA.2601;;;Blachy
-Gwiazda plastik czarna 2601 2701 32cm;GWIAZDA.2701;;;Gwiazdy
+Gwiazda plastik czarna 2601 2701 32cm;GWIAZDA.2701;GWIAZDA.2701.jpg;32cm;Gwiazdy
 Blacha 8606 T;CZ.BLACHA.8606;;Kształt T tylko 8606;Blachy
 Blacha Skadi;CZ.BLACHA.SKD;;;Blachy
 Ymir ramka oparcia;CZ.NH.YMR-CZ18;CZ.NH.YMR-CZ18.jpg;;Inne
@@ -116,3 +116,8 @@ Podłokietnik 8606 lewy biały;CZ.PODŁ.8606W.L;CZ.PODŁ.8606W.jpg;;Podłokietni
 Podłokietnik 8606 lewy czarny;CZ.PODŁ.8606B.L;CZ.PODŁ.8606B.jpg;;Podłokietniki
 Podłokietnik 8606 prawy biały;CZ.PODŁ.8606W.P;CZ.PODŁ.8606W.jpg;;Podłokietniki
 Podłokietnik 8606 prawy czarny;CZ.PODŁ.8606B.P;CZ.PODŁ.8606B.jpg;;Podłokietniki
+Podłokietnik Skadi Lewy;CZ.PODŁ.SKD.L;CZ.PODŁ.SKD.L.jpg;;Podłokietniki
+Podłokietnik Skadi Prawy;CZ.PODŁ.SKD.P;CZ.PODŁ.SKD.L.jpg;;Podłokietniki
+Podłokietnik 2601 Lewy;CZ.PODŁ.2601.L;CZ.PODŁ.2601.jpg;;Podłokietniki
+Podłokietnik 2601 Prawy;CZ.PODŁ.2601.P;CZ.PODŁ.2601.jpg;;Podłokietniki
+Osłona ramienia skręcana 8688;CZ.OSŁONA.8688;CZ.OSŁONA.8688.jpg;;Inne
