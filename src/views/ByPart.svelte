@@ -3,6 +3,7 @@
   import { Card, Button, Image } from 'smelte'
 
   let partsList
+  let selectedParts
 
   const active = {}
 
@@ -18,28 +19,55 @@
           active[`${part.type}`] = true
         }
       }
+      selectedParts = partsList
     }
   })
+
+
+
+  function partsSelect(group){
+    if(group=='all'){
+      selectedParts = partsList
+    } else {
+      selectedParts = {}
+      selectedParts[group] = partsList[group]
+    }
+  }
 </script>
 
 {#if partsList}
   <div class="flex flex-row">
-    <filters class="mr-8">
-      <h2 class="mt-2m mb-6 px-8">Grupy części</h2>
+    <filters class="mr-8 w-56 mt-20">
+      <h2 class="mt-2m mb-6 px-2 whitespace-no-wrap">Grupy części</h2>
       <div class="flex flex-col">
+        <button
+        class="py-2 px-4 uppercase text-sm font-medium relative
+          overflow-hidden text-black duration-200 ease-in bg-primary-500}
+          hover:bg-primary-400 hover:elevation-5 elevation-3 rounded button"
+          on:click={()=> {
+            partsSelect('all')
+          }}
+          >
+        Wszystkie
+      </button>
+      <div class="mb-6" />
         {#each Object.keys(partsList) as group}
           <button
             class="py-2 px-4 uppercase text-sm font-medium relative
-              overflow-hidden text-white duration-200 ease-in bg-primary-500}
-              hover:bg-primary-400 hover:elevation-5 elevation-3 rounded button">
+              overflow-hidden text-black duration-200 ease-in bg-primary-500}
+              hover:bg-primary-400 hover:elevation-5 elevation-3 rounded button"
+              on:click={()=> {
+                partsSelect(group)
+              }}
+              >
             {group}
           </button>
           <div class="mb-2" />
         {/each}
       </div>
     </filters>
-    <div>
-      {#each Object.keys(partsList) as group}
+    <div class="flex-1">
+      {#each Object.keys(selectedParts) as group}
         <div>
           <h3 class="mt-2 mb-6 mr-8">{group}</h3>
           <parts class="flex flex-row flex-wrap">
@@ -72,8 +100,6 @@
                   </div>
                   <div slot="actions">
                     <div class="p-2">
-                      <!-- <Button text>OK</Button>
-                    <Button text>Meow</Button> -->
                     </div>
                   </div>
                 </Card.Card>
